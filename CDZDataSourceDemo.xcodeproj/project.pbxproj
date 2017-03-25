@@ -32,10 +32,10 @@
 		DACF94001E8635AD0031DCE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DACF94031E8635AD0031DCE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DACF94051E8635AD0031DCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DACF940B1E8635D10031DCE1 /* CDZTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDZTableDataSource.h; path = ../CDZTableDataSource.h; sourceTree = "<group>"; };
-		DACF940C1E8635D10031DCE1 /* CDZTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDZTableDataSource.m; path = ../CDZTableDataSource.m; sourceTree = "<group>"; };
-		DACF94111E86385B0031DCE1 /* CDZSectionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDZSectionObject.h; path = ../CDZSectionObject.h; sourceTree = "<group>"; };
-		DACF94121E86385B0031DCE1 /* CDZSectionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDZSectionObject.m; path = ../CDZSectionObject.m; sourceTree = "<group>"; };
+		DACF940B1E8635D10031DCE1 /* CDZTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZTableDataSource.h; sourceTree = "<group>"; };
+		DACF940C1E8635D10031DCE1 /* CDZTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZTableDataSource.m; sourceTree = "<group>"; };
+		DACF94111E86385B0031DCE1 /* CDZSectionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZSectionObject.h; sourceTree = "<group>"; };
+		DACF94121E86385B0031DCE1 /* CDZSectionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZSectionObject.m; sourceTree = "<group>"; };
 		DACF94141E8638EB0031DCE1 /* CDZCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZCellProtocol.h; sourceTree = "<group>"; };
 		DACF94171E863A4E0031DCE1 /* CDZTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZTableViewCell.h; sourceTree = "<group>"; };
 		DACF94181E863A4E0031DCE1 /* CDZTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZTableViewCell.m; sourceTree = "<group>"; };
@@ -369,6 +369,7 @@
 				DACF940A1E8635AD0031DCE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
