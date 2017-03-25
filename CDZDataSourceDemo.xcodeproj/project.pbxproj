@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DACF93F61E8635AD0031DCE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DACF93F51E8635AD0031DCE1 /* main.m */; };
+		DACF93F91E8635AD0031DCE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DACF93F81E8635AD0031DCE1 /* AppDelegate.m */; };
+		DACF93FC1E8635AD0031DCE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DACF93FB1E8635AD0031DCE1 /* ViewController.m */; };
+		DACF93FF1E8635AD0031DCE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACF93FD1E8635AD0031DCE1 /* Main.storyboard */; };
+		DACF94011E8635AD0031DCE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACF94001E8635AD0031DCE1 /* Assets.xcassets */; };
+		DACF94041E8635AD0031DCE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACF94021E8635AD0031DCE1 /* LaunchScreen.storyboard */; };
+		DACF940D1E8635D10031DCE1 /* CDZTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DACF940C1E8635D10031DCE1 /* CDZTableDataSource.m */; };
+		DACF94131E86385B0031DCE1 /* CDZSectionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DACF94121E86385B0031DCE1 /* CDZSectionObject.m */; };
+		DACF94191E863A4E0031DCE1 /* CDZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DACF94181E863A4E0031DCE1 /* CDZTableViewCell.m */; };
+		DACF941C1E863AA40031DCE1 /* CDZCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DACF941B1E863AA40031DCE1 /* CDZCellItem.m */; };
+		DACF941F1E863B500031DCE1 /* CDZCollectionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DACF941E1E863B500031DCE1 /* CDZCollectionDataSource.m */; };
+		DACF94221E86455B0031DCE1 /* CDZCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DACF94211E86455B0031DCE1 /* CDZCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DACF93F11E8635AD0031DCE1 /* CDZDatasourceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDZDatasourceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACF93F51E8635AD0031DCE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DACF93F71E8635AD0031DCE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DACF93F81E8635AD0031DCE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DACF93FA1E8635AD0031DCE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DACF93FB1E8635AD0031DCE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DACF93FE1E8635AD0031DCE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DACF94001E8635AD0031DCE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DACF94031E8635AD0031DCE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DACF94051E8635AD0031DCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACF940B1E8635D10031DCE1 /* CDZTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDZTableDataSource.h; path = ../CDZTableDataSource.h; sourceTree = "<group>"; };
+		DACF940C1E8635D10031DCE1 /* CDZTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDZTableDataSource.m; path = ../CDZTableDataSource.m; sourceTree = "<group>"; };
+		DACF94111E86385B0031DCE1 /* CDZSectionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDZSectionObject.h; path = ../CDZSectionObject.h; sourceTree = "<group>"; };
+		DACF94121E86385B0031DCE1 /* CDZSectionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDZSectionObject.m; path = ../CDZSectionObject.m; sourceTree = "<group>"; };
+		DACF94141E8638EB0031DCE1 /* CDZCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZCellProtocol.h; sourceTree = "<group>"; };
+		DACF94171E863A4E0031DCE1 /* CDZTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZTableViewCell.h; sourceTree = "<group>"; };
+		DACF94181E863A4E0031DCE1 /* CDZTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZTableViewCell.m; sourceTree = "<group>"; };
+		DACF941A1E863AA40031DCE1 /* CDZCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZCellItem.h; sourceTree = "<group>"; };
+		DACF941B1E863AA40031DCE1 /* CDZCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZCellItem.m; sourceTree = "<group>"; };
+		DACF941D1E863B500031DCE1 /* CDZCollectionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZCollectionDataSource.h; sourceTree = "<group>"; };
+		DACF941E1E863B500031DCE1 /* CDZCollectionDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZCollectionDataSource.m; sourceTree = "<group>"; };
+		DACF94201E86455B0031DCE1 /* CDZCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZCollectionViewCell.h; sourceTree = "<group>"; };
+		DACF94211E86455B0031DCE1 /* CDZCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DACF93EE1E8635AD0031DCE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DACF93E81E8635AD0031DCE1 = {
+			isa = PBXGroup;
+			children = (
+				DACF93F31E8635AD0031DCE1 /* CDZDatasourceDemo */,
+				DACF93F21E8635AD0031DCE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DACF93F21E8635AD0031DCE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DACF93F11E8635AD0031DCE1 /* CDZDatasourceDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DACF93F31E8635AD0031DCE1 /* CDZDatasourceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DACF94241E86461D0031DCE1 /* CDZCollection */,
+				DACF94231E8645FC0031DCE1 /* CDZTable */,
+				DACF94251E8652010031DCE1 /* CDZModel */,
+				DACF94141E8638EB0031DCE1 /* CDZCellProtocol.h */,
+				DACF93F71E8635AD0031DCE1 /* AppDelegate.h */,
+				DACF93F81E8635AD0031DCE1 /* AppDelegate.m */,
+				DACF93FA1E8635AD0031DCE1 /* ViewController.h */,
+				DACF93FB1E8635AD0031DCE1 /* ViewController.m */,
+				DACF93FD1E8635AD0031DCE1 /* Main.storyboard */,
+				DACF94001E8635AD0031DCE1 /* Assets.xcassets */,
+				DACF94021E8635AD0031DCE1 /* LaunchScreen.storyboard */,
+				DACF94051E8635AD0031DCE1 /* Info.plist */,
+				DACF93F41E8635AD0031DCE1 /* Supporting Files */,
+			);
+			path = CDZDatasourceDemo;
+			sourceTree = "<group>";
+		};
+		DACF93F41E8635AD0031DCE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DACF93F51E8635AD0031DCE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DACF94231E8645FC0031DCE1 /* CDZTable */ = {
+			isa = PBXGroup;
+			children = (
+				DACF940B1E8635D10031DCE1 /* CDZTableDataSource.h */,
+				DACF940C1E8635D10031DCE1 /* CDZTableDataSource.m */,
+				DACF94171E863A4E0031DCE1 /* CDZTableViewCell.h */,
+				DACF94181E863A4E0031DCE1 /* CDZTableViewCell.m */,
+			);
+			name = CDZTable;
+			sourceTree = "<group>";
+		};
+		DACF94241E86461D0031DCE1 /* CDZCollection */ = {
+			isa = PBXGroup;
+			children = (
+				DACF94201E86455B0031DCE1 /* CDZCollectionViewCell.h */,
+				DACF94211E86455B0031DCE1 /* CDZCollectionViewCell.m */,
+				DACF941D1E863B500031DCE1 /* CDZCollectionDataSource.h */,
+				DACF941E1E863B500031DCE1 /* CDZCollectionDataSource.m */,
+			);
+			name = CDZCollection;
+			sourceTree = "<group>";
+		};
+		DACF94251E8652010031DCE1 /* CDZModel */ = {
+			isa = PBXGroup;
+			children = (
+				DACF94111E86385B0031DCE1 /* CDZSectionObject.h */,
+				DACF94121E86385B0031DCE1 /* CDZSectionObject.m */,
+				DACF941A1E863AA40031DCE1 /* CDZCellItem.h */,
+				DACF941B1E863AA40031DCE1 /* CDZCellItem.m */,
+			);
+			name = CDZModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DACF93F01E8635AD0031DCE1 /* CDZDatasourceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACF94081E8635AD0031DCE1 /* Build configuration list for PBXNativeTarget "CDZDatasourceDemo" */;
+			buildPhases = (
+				DACF93ED1E8635AD0031DCE1 /* Sources */,
+				DACF93EE1E8635AD0031DCE1 /* Frameworks */,
+				DACF93EF1E8635AD0031DCE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDZDatasourceDemo;
+			productName = CDZDatasourceDemo;
+			productReference = DACF93F11E8635AD0031DCE1 /* CDZDatasourceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DACF93E91E8635AD0031DCE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Nemocdz;
+				TargetAttributes = {
+					DACF93F01E8635AD0031DCE1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DACF93EC1E8635AD0031DCE1 /* Build configuration list for PBXProject "CDZDataSourceDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DACF93E81E8635AD0031DCE1;
+			productRefGroup = DACF93F21E8635AD0031DCE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DACF93F01E8635AD0031DCE1 /* CDZDatasourceDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DACF93EF1E8635AD0031DCE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACF94041E8635AD0031DCE1 /* LaunchScreen.storyboard in Resources */,
+				DACF94011E8635AD0031DCE1 /* Assets.xcassets in Resources */,
+				DACF93FF1E8635AD0031DCE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DACF93ED1E8635AD0031DCE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACF94131E86385B0031DCE1 /* CDZSectionObject.m in Sources */,
+				DACF93FC1E8635AD0031DCE1 /* ViewController.m in Sources */,
+				DACF93F91E8635AD0031DCE1 /* AppDelegate.m in Sources */,
+				DACF94221E86455B0031DCE1 /* CDZCollectionViewCell.m in Sources */,
+				DACF94191E863A4E0031DCE1 /* CDZTableViewCell.m in Sources */,
+				DACF941F1E863B500031DCE1 /* CDZCollectionDataSource.m in Sources */,
+				DACF941C1E863AA40031DCE1 /* CDZCellItem.m in Sources */,
+				DACF93F61E8635AD0031DCE1 /* main.m in Sources */,
+				DACF940D1E8635D10031DCE1 /* CDZTableDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DACF93FD1E8635AD0031DCE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACF93FE1E8635AD0031DCE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DACF94021E8635AD0031DCE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACF94031E8635AD0031DCE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DACF94061E8635AD0031DCE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DACF94071E8635AD0031DCE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DACF94091E8635AD0031DCE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CDZDatasourceDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nemocdz.CDZDataSourceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DACF940A1E8635AD0031DCE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CDZDatasourceDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nemocdz.CDZDataSourceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DACF93EC1E8635AD0031DCE1 /* Build configuration list for PBXProject "CDZDataSourceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACF94061E8635AD0031DCE1 /* Debug */,
+				DACF94071E8635AD0031DCE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACF94081E8635AD0031DCE1 /* Build configuration list for PBXNativeTarget "CDZDatasourceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACF94091E8635AD0031DCE1 /* Debug */,
+				DACF940A1E8635AD0031DCE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DACF93E91E8635AD0031DCE1 /* Project object */;
+}
